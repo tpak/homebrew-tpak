@@ -1,6 +1,6 @@
 cask "meridian" do
-  version "2.12.0"
-  sha256 "31b8107c938f1ad16e3d1e2f2b603dd02e697652e30f4445f02cdb6b0d1ceb98"
+  version "2.13.0"
+  sha256 "bb42b12a508c62299a8ad5f34b5bcc5a8eccd5caa9e951a0f5137d9d771d5b95"
 
   url "https://github.com/tpak/Meridian/releases/download/v#{version}/Meridian.app.zip"
   name "Meridian"

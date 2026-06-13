@@ -4,7 +4,7 @@ cask "meridian" do
 
   url "https://github.com/tpak/Meridian/releases/download/v#{version}/Meridian.app.zip"
   name "Meridian"
-  desc "macOS menu bar world clock app"
+  desc "Menu bar world clock app"
   homepage "https://github.com/tpak/Meridian"
 
   auto_updates true
@@ -12,7 +12,5 @@ cask "meridian" do
 
   app "Meridian.app"
 
-  zap trash: [
-    "~/Library/Preferences/com.tpak.Meridian.plist",
-  ]
+  zap trash: "~/Library/Preferences/com.tpak.Meridian.plist"
 end

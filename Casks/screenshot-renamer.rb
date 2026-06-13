@@ -1,6 +1,6 @@
 cask "screenshot-renamer" do
-  version "1.15.0"
-  sha256 "a3243fe656650d0dfe6ecc028583e4949407957660f16ccda2d3f27224f6009d"
+  version "1.15.1"
+  sha256 "7659f5567395bde0387f2d19c963ed0a6a15455fd0228272496674f4a5efa3f7"
 
   url "https://github.com/tpak/ScreenshotRenamer/releases/download/v#{version}/ScreenshotRenamer.zip"
   name "Screenshot Renamer"

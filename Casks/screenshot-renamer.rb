@@ -1,6 +1,6 @@
 cask "screenshot-renamer" do
-  version "1.16.1"
-  sha256 "b561d3d7f6b4a7fcb75b4c9a0a4016bdf5e823426ff610b1ca81f36397ce16a0"
+  version "1.17.0"
+  sha256 "3b7d8962604b3bdaf387cd363eddf9c2f301d1302073a0712d9ccf912d96e147"
 
   url "https://github.com/tpak/ScreenshotRenamer/releases/download/v#{version}/ScreenshotRenamer.zip"
   name "Screenshot Renamer"
@@ -8,7 +8,7 @@ cask "screenshot-renamer" do
   homepage "https://tpak.github.io/ScreenshotRenamer/"
 
   auto_updates true
-  depends_on macos: :big_sur
+  depends_on macos: :monterey
 
   app "ScreenshotRenamer.app"
 

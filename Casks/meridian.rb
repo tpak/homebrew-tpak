@@ -8,7 +8,8 @@ cask "meridian" do
   homepage "https://github.com/tpak/Meridian"
 
   auto_updates true
-  depends_on macos: :ventura
+  depends_on arch: :arm64
+  depends_on macos: :tahoe
 
   app "Meridian.app"
 

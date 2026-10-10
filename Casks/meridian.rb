@@ -13,5 +13,10 @@ cask "meridian" do
 
   app "Meridian.app"
 
-  zap trash: "~/Library/Preferences/com.tpak.Meridian.plist"
+  zap trash: [
+    "~/Library/Application Scripts/com.tpak.Meridian",
+    "~/Library/Caches/com.tpak.Meridian",
+    "~/Library/Containers/com.tpak.Meridian",
+    "~/Library/HTTPStorages/com.tpak.Meridian",
+  ]
 end
